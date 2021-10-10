@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+</head>
+<body>
+
+	<h1>Data -IO</h1>
+	<?php 
+  $data= fread($handle,filesize("data.json"));
+var_dump($data);
+echo"<hr>";
+$exploaded=explode("\n",$data);
+var_dump($exploaded);
+echo"<hr>";
+$arr1= array();
+for($i=0;$i<count($exploaded);$i++){
+	$decode = json_decode($exploaded[$i]);
+	array_push($arr1,$decode);
+}
+var_dump($arr1);
+echo"<hr>";
+echo $arr1[0]->firstname;
+	
+	?>
+	<hr>
+	</html>
+</count($exploaded);$i++){>
+</body>
