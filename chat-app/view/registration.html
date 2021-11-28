@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTRATION-FORM</title>
+    <link rel ="stylesheet" type="text/css" href="../css/req_design.css">
+</head>
+<body>
+ <form form name="myForm" action="../controller/registration_action.php" onsubmit="return validateForm()" method="POST"> 
+  <div>
+    <div>
+    <fieldset>
+        <h2 class="heading">REGISTRATION FORM</h2>
+        <div>
+          <div>
+
+
+
+        <label  for="id">ID:</label>
+        <input type="id" id="id" name="id" ><br><br>
+
+        <label  for="username">USERNAME:</label>
+        <input type="username" id="username" name="username" ><br><br>
+    
+        <label   for="password"> PASSWORD:</label>
+        <input type="password" id="password" name="password" ><br><br>
+
+        <label   for="email">EMAIL:</label>
+        <input type="email" id="email" name="email" ><br><br>
+    
+       
+            </input><br>
+
+
+       <br> 
+            </input><br>
+      </fieldset> 
+      <br>
+      <input type="submit" value="Confirm" name="Confirm" class="button1">
+      
+<!--       <form action="login.html"><input type="submit" value="back" class="button"></form> -->
+     
+    </form>  
+  <script type="text/javascript" src="../js/reg_valid.js"></script>
+</body>
+</html>
