@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background-image:linear-gradient(rgba(255, 249, 249, 0.89),rgba(240, 231, 231, 0.884)),url(../img/dash.jpg);
+}
+header{
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+h2{
+		font-weight: 600;
+		text-align: center;
+		height: 50px;
+		background-color:#34bccc;
+		color:#000000;
+		padding: 10px 0px;
+	}
+/*main{
+ 
+display: flex;
+  border:1px solid red;
+  height: calc(100vh - 100 px);
+  align-items: center;
+  justify-content: center;
+}
+.content-left{
+  width:30%;
+
+}
+.content-right{
+  width:60%;
+
+}
+main h1{
+  font-size: 54px;
+  color: #44487c;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}*/
+
+.box-area{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.single-box{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: auto;
+	border-radius: 4px;
+	background-color: #fff;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	transition: .3s;
+}
+.img-area{
+	display: flex;
+	justify-content: center;
+	width: 80px;
+	height: 80px;
+	border:6px solid #ddd;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	padding: 20px;
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+
+}
+
+
+.single-box:nth-child(1) .img-area{
+	background-image:url(../img/1b.png); 
+}
+.single-box:nth-child(2) .img-area{
+	background-image:url(../img/2b.jpg); 
+}
+.single-box:nth-child(3) .img-area{
+	background-image:url(../img/3b.jpg); 
+}
+.single-box:nth-child(4) .img-area{
+	background-image:url(../img/4b.jpg); 
+}
+.single-box:nth-child(5) .img-area{
+	background-image:url(../img/5b.jpg); 
+}
+
+.single-box .btn{
+	display: inline-block;
+	background:#285454;
+	color:#fff;
+	text-align: center;
+	color: #fff;
+	padding:10px 20px;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px; 
+
+}
+.header-text{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 48px;
+
+}
+.img-text{
+	font-family: Poppins;
+	padding-top: 20px;
+}
+.img-text p{
+	font-size : 15px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.single-box:hover{
+	background:#24869e;
+	color: #fff;
+
+}
