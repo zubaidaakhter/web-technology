@@ -1,0 +1,22 @@
+
+{"firstname":"md",
+"Lastname":"alam",
+"Age":"44",
+"Address":"470-B Uttara",
+"Phone":"0182093746",
+"Email":"alam@gmail.com",
+"username":"alam",
+"Password":"1234",
+"Licensenumber":"11224567",
+"Issuedate":"2018-07-11"}
+
+{"firstname":"md",
+"Lastname":"karim",
+"Age":"55","Address":"470-B Uttara",
+"Phone":"0182093746",
+"Email":"karim@gmail.com",
+"username":"karim",
+"Password":"11223",
+"Licensenumber":"9998777776",
+"Issuedate":"2015-11-25"}
+{"firstname":"Zayn","Lastname":"Arian","Age":"50","Address":"470 West Mirpur","Phone":"0182093746","Email":"ali@gmail.com","username":"zayn","Password":"12345","Licensenumber":"9998777776","Issuedate":"2018-08-23"}

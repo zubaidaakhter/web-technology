@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Manage Orders</title>
+</head>
+<body style= "text-align:center;">
+  <header>
+  <h1> Welcome to Manage Medicine </h1>
+</header>
+  <form  action="../view/ManageOrder.php"  method="POST">
+    <fieldset>
+      <legend><h3>GENERAL-INFORMATION</h3></legend>
+
+       <label for="Order">ORDER ID:</label>
+       <input type="text" name="Order" id="Order">
+       <br>
+       <br>
+       <label for="Customer">CUSTOMER NAME:</label>
+       <input type="text" name="Customer" id="Customer">
+       <br>
+       <br>
+       <label for="Medicine">MEDICINE NAME:</label>
+       <input type="text" name="Medicine" id="Medicine">
+       <br>
+       <br>
+        <label for="Generics">GENERICS NAME:</label>
+        <input type="text" name="Generics" id="Generics">
+        <br>
+        <br>
+        <label for="Quantity">QUANTITY:</label>
+       <input type="text" name="Quantity" id="Quantity">
+       <br>
+       <br>
+       <label for="Price">PRICE:</label>
+       <input type="text" name="Price" id="Price">
+       <br>
+       <br>
+       PAYMENT STATUS:<select name="Payment">
+       <option>select an option</option>
+       <option value="false">false</option>
+       <option value="true">true</option>
+       </select>
+
+      <label for="OrderTime">ORDER TIME:</label>
+       <input type="date" name="OrderTime" id="OrderTime"> 
+       
+       ORDER STATUS:<select name="OrderStatus">
+            <option >select an option</option>
+            <option value="delivered">DELIVERED</option>
+            <option value="waiting">WAITING</option>
+            <option value="canceled">CANCELED</option>
+            <option value="pending">PENDING</option>
+            <option value="On the way">ON THE WAY</option>
+        </select>
+       <br>
+       <br>
+      
+      <input type="submit"  name="submit"  value="Submit"><br><br>
+     </fieldset>
+  </form>
+  <form action="ManageOrder.php"><input type="submit" value="view table"></form>
+  <br>
+  <form action="homepage.php"><input type="submit" value="back"></form>
+  <br>
+
+</body>
+</html>
