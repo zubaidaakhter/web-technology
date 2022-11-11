@@ -27,7 +27,7 @@
   
 <div class = "content-left">
   <h2> MEDICINE SHOP MANAGER </h2>
-  <p> welcome to the medicine shop manger page sign up and work with doctor's point .</p>
+  <p> Hello my name is zubaida...welcome to the medicine shop manger page sign up and work with doctor's point .</p>
   <!-- <button class="cta">Learn More</button> -->
 </div>
 <div class="content-right">
